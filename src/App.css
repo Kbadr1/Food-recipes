@@ -1,0 +1,67 @@
+.search-form{
+    padding: 25px 0px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+input{
+    all: unset;
+    padding-left: 5px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid black;
+    color: black;
+}
+form button{
+    all: unset;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 0px 10px;
+    font-weight: 500;
+    border-radius: 0px 2px 2px 0px;
+}
+form button:hover{
+    background-color: white;
+    color: black;
+    transition: ease-in-out 0.5s;
+}
+.recipes{
+    justify-content: center;
+    padding-top: 10px;
+}
+.recipes .recipe .rec{
+    margin: 15px 0px;
+    padding: 0px;
+    padding-bottom: 35px;
+    box-shadow: 0px 0px 10px rgb(148, 146, 146);
+    color: black;
+    background-color: rgb(230, 230, 230);
+}
+.recipes .recipe .rec h5{
+    padding: 15px 10px;
+}
+.recipes .recipe .rec a {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+}
+.recipes .recipe .rec a:hover{
+    color: black;
+    background-color: white;
+    transition: ease-in-out 0.5s;
+}
+
+.RecipeDetails ul{
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.RecipeDetails li{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 500;
+}
